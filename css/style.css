@@ -107,17 +107,6 @@ body {
     font-style: normal;
 }
 
-/* caja-celeste2-start */
-#dos-caja-celeste{
-    margin: 40px;
-    background-color: #3CDDF3;
-    padding: 50px 40px;
-    color: white;
-    flex-direction: column;
-
-}
-/* caja-celeste2-end */
-
 /* caracteristicas-pro-start */
 .contenido-texto {
     height: 43px;
@@ -159,3 +148,15 @@ body {
     padding: 10px;
 }
 /* caracteristicas-pro-end */
+
+/* caja-celeste2-start */
+#dos-caja-celeste{
+    margin: 40px;
+    background-color: #3CDDF3;
+    padding: 50px 40px;
+    color: white;
+    flex-direction: column;
+
+}
+/* caja-celeste2-end */
+
