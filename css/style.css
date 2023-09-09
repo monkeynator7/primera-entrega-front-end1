@@ -1,5 +1,6 @@
 body {
     font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0px;
 }
 /* navbar */
 #barra-navegacion{
@@ -11,21 +12,21 @@ body {
     margin-bottom: 64px;
     height: 60px;
     align-items: center;
+    gap:200px;
 }
-
 #logo-barra{
     width: 107.684px;
     height: 25px;
     
 }
-
 #lineas-barra{
+    margin-top: 0;
+    margin-bottom: 0;
     width: 30px;
     height: 30px;
 }
-
-
 /* navbar */
+
 /* main */
 #container-main {
     width: 90vw;
@@ -75,25 +76,58 @@ body {
 
 /* main */
 /* contenido-texto */
-#contenido-texto h4 {
-    font-weight: 700;
+/* whats different */
+#uno-caja-celeste{
+    width: 480px;
+    margin-top: 40px;
+    /* padding-top: 40px; */
+    /* padding-bottom: 40px; */
+    margin-right: 0px;
+    margin-left: 0px;
+    /* padding: 40px 20px; */
+    display: flex;
+    background-color: #3CDDF3;
+    flex-direction: column;
+    gap: 50px;
+
+
+}
+#whats-h3{
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+}
+#manage-p{
+    margin-top: 0;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    color: #FFF;
     font-size: 16px;
-    padding: 10px;
-    width: 446px;
-    background-color: rgba(139, 72, 191, 0.30);
+    font-style: normal;
 }
 
-/* contenido-texto */
-/* .numeracion-contenido-texto {
-    display: flex;
-    padding: 10px 25px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 30px;
-    background: #8B48BF;
-    border-style: none;
-    width: 23px;
-    height: 19px;
+
+#dos-caja-celeste{
+    margin: 40px;
+    background-color: #3CDDF3;
+    padding: 50px 40px;
     color: white;
-} */
+    flex-direction: column;
+
+}
+
+/* whats different */
+
+/* cote */
+
+/* previo a footer */
+
+
+/* previo a footer */
