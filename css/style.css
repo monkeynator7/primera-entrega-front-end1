@@ -1,16 +1,52 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
 /* main */
-.flex{
+#container-main {
+    width: 90vw;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.flex {
     display: flex;
 }
-#jugador-padel{
+
+#jugador-padel {
     justify-content: center;
-    width: 100vw;
+    width: 100%;
 }
-#follow-live{
+
+#follow-live {
     flex-direction: column;
     align-items: flex-end;
 }
-#follow-live h2{
+
+#follow-live h2 {
     margin: 4px 10px 4px;
+    color: #232C50;
+    font-size: 50px;
 }
+
+#follow-live p {
+    text-align: right;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+#boton-contacto {
+    display: flex;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #8B48BF;
+    color: white;
+    border-style: none;
+}
+
 /* main */
