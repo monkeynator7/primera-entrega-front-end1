@@ -1,3 +1,32 @@
+/* navbar */
+#barra-navegacion{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 56.32px;
+    margin-left: 56px;
+    margin-top: 40px;
+    margin-bottom: 64px;
+    height: 60px;
+    align-items: center;
+}
+
+#logo-barra{
+    width: 107.684px;
+    height: 25px;
+    
+}
+
+#lineas-barra{
+    width: 30px;
+    height: 30px;
+}
+
+
+/* navbar */
+
+
+
+
 /* main */
 .flex{
     display: flex;
