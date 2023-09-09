@@ -17,6 +17,17 @@
         <div id="logo-barra">
             <img src="img/logo.svg" alt="logo-barra">
         </div>
+        <div id="bloque-navbar" style="display: none;">
+            <ul class="sin-punto">
+                <li>Sports</li>
+                <li>Products</li>
+                <li>About Us</li>
+                <li>Training</li>
+                <li>Community</li>
+                <li><button id="boton-nav">Contact</button></li>
+            </ul>
+
+        </div>
 
         <div id="lineas-barra">
             <img src="img/icon-hamburger.svg" alt="lineas-barra">
@@ -52,56 +63,95 @@
     </section>
     <!-- primer cuadro celeste - End-->
     <!-- Caracteristicas Pro - Start -->
-    <div class="column">
-        <div class="flex contenido-texto">
-            <button>01</button>
-            <h4>Track company-wide progress</h4>
+    <div id="pro-start">
+        <div class="column">
+            <div class="flex contenido-texto">
+                <button>01</button>
+                <h4>Track company-wide progress</h4>
+            </div>
+            <div class="flex parrafo">
+                <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus
+                    pellentesque
+                    egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
+            </div>
         </div>
-        <div class="flex parrafo">
-            <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque
-                egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
+        <div class="column">
+            <div class="flex contenido-texto">
+                <button>02</button>
+                <h4>Advance built-in reports</h4>
+            </div>
+            <div class="flex parrafo">
+                <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus
+                    pellentesque
+                    egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
+                </p>
+            </div>
         </div>
-    </div>
-    <div class="column">
-        <div class="flex contenido-texto">
-            <button>02</button>
-            <h4>Advance built-in reports</h4>
-        </div>
-        <div class="flex parrafo">
-            <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque
-                egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
-        </div>
-    </div>
-    <div class="column">
-        <div class="flex contenido-texto">
-            <button>03</button>
-            <h4>Everything you need in one place</h4>
-        </div>
-        <div class="flex parrafo">
-            <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque
-                egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
+        <div class="column">
+            <div class="flex contenido-texto">
+                <button>03</button>
+                <h4>Everything you need in one place</h4>
+            </div>
+            <div class="flex parrafo">
+                <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus
+                    pellentesque
+                    egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
+                </p>
+            </div>
         </div>
     </div>
     <!-- Caracteristicas Pro - End -->
-    
+
     <!-- best of the month - Start -->
     <section>
+        <h2 style="text-align: center;">Best of the month</h2>
         <div id="contenedor-best-month">
-            <h2>Best of the month</h2>
-            <div>
+
+            <div class="contenedor-jugador" id="jugador-sanyo" style="display: none;">
                 <div>
-                    <img src="img/avatar.lebron.png" alt="">
-                    <h4>Lebron</h4>
-                </div>
-                <div id="contenedor-gris">
-                    <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris,
-                        ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes,
-                        nascetur ridiculus mus.</p>
+                    <div>
+                        <img src="img/avatar-sanyo.png" alt="icono-sanyo">
+                        <h4>Sanyo</h4>
+                    </div>
+                    <div id="contenedor-gris">
+                        <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris,
+                            ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient
+                            montes,
+                            nascetur ridiculus mus.</p>
+                    </div>
                 </div>
             </div>
-            <div id="contenedor-boton-more">
-                <button id="boton-best">More</button>
+            <div class="contenedor-jugador">
+                <div>
+                    <div>
+                        <img src="img/avatar.lebron.png" alt="icono-lebron">
+                        <h4>Lebron</h4>
+                    </div>
+                    <div id="contenedor-gris">
+                        <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris,
+                            ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient
+                            montes,
+                            nascetur ridiculus mus.</p>
+                    </div>
+                </div>
             </div>
+            <div class="contenedor-jugador" id="jugador-navarro" style="display: none;">
+                <div>
+                    <div>
+                        <img src="img/avatar-navarro.png" alt="icono-navarro">
+                        <h4>Navarro</h4>
+                    </div>
+                    <div id="contenedor-gris">
+                        <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris,
+                            ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient
+                            montes,
+                            nascetur ridiculus mus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contenedor-boton-more">
+            <button id="boton-best">More</button>
         </div>
     </section>
     <!-- best of the month - End -->

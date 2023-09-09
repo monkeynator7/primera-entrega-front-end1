@@ -82,7 +82,7 @@ body {
 
 /* whats different */
 #uno-caja-celeste {
-    width: 480px;
+    width: 100%;
     margin-top: 40px;
     margin-right: 0px;
     margin-left: 0px;
@@ -115,6 +115,12 @@ body {
 }
 
 /* caracteristicas-pro-start */
+#pro-start {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
 .contenido-texto {
     height: 43px;
     margin: 0px;
@@ -187,7 +193,9 @@ body {
 }
 
 #contenedor-boton-more {
-    margin-top: 150px;
+    padding-top: 30px;
+    margin-top: 180px;
+    text-align: center;
 }
 
 #boton-best {
@@ -326,7 +334,41 @@ footer {
 /* footer-end */
 
 @media (min-width: 1440px) {
+
     /* navbar start */
+    .sin-punto {
+        list-style: none;
+        display: flex;
+    }
+
+    .sin-punto li {
+        padding: 10px;
+    }
+
+    #bloque-navbar {
+        display: block !important;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        flex-grow: 1;
+
+    }
+
+    #boton-nav {
+        display: flex;
+        width: 134px;
+        height: 44px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50px;
+        background: #8B48BF;
+        box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+        text-decoration: none;
+        border-style: none;
+    }
+
     /* navbar end */
     /* main-display start */
     #container-main {
@@ -336,20 +378,134 @@ footer {
         margin-right: 100px;
         margin-left: 100px;
     }
+
     #jugador-padel {
         width: 90%;
     }
+
     #follow-live {
         width: 50%;
     }
+
     /* main-display end */
     /* cuadro celeste 1 start */
+    #uno-caja-celeste {
+        flex-direction: row;
+        background-color: #8B48BF;
+        width: 100%;
+        gap: 100px;
+        align-items: center;
+        padding: 40px;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    #whats-h3 {
+        margin: 0;
+        color: #FFF;
+        font-size: 36px;
+        font-style: normal;
+        width: 450px;
+    }
+
+    #manage-p {
+        margin: 0;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        width: 450px;
+    }
+
+
     /* cuadro celeste 1 end */
     /* caracteristicas pro start */
+    #pro-start {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #FAFAFA;
+        padding: 50px;
+        margin-bottom: 50px;
+    }
+
+    .column {
+        width: 500px;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .contenido-texto {
+        background-color: #FAFAFA;
+    }
+
+    .column p {
+        line-height: 20px;
+        margin-top: 0px;
+        padding-left: 90px;
+    }
+
     /* caracteristicas pro end */
     /* best month start */
+    .contenedor-jugador {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #jugador-sanyo {
+        display: block !important;
+    }
+
+    #jugador-navarro {
+        display: block !important;
+    }
+
+    #contenedor-best-month {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        justify-content: space-around;
+        background-color: #FAFAFA;
+        z-index: 0;
+    }
+
+    #contenedor-gris {
+        position: relative;
+        top: 0px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 25px;
+        font-size: 16px;
+        color: #B9B9C1;
+        ;
+    }
+
+    #contenedor-boton-more {
+        margin-top: 30px;
+        text-align: center;
+    }
+
     /* best month end */
     /* cuadro celeste 2 start */
+    #dos-caja-celeste {
+        flex-direction: row;
+        background-color: #8B48BF;
+        width: 100%;
+        gap: 538px;
+        padding: 64px 210px 64px 165px;
+
+    }
+
+    #get-to {
+        margin: 0px;
+        display: flex;
+        text-align: left;
+        font-size: 50px;
+    }
+
+
     /* cuadro celeste 2 end */
     /* footer start */
     /* footer end*/
