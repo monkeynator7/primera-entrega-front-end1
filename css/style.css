@@ -152,7 +152,48 @@ body {
 
 /* caracteristicas-pro-end */
 
-/* caja-celeste2-start */
+/* best month-start */
+
+#contenedor-best-month {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+#contenedor-best-month h2 {
+    margin-top: 0;
+    font-size: 39.214px;
+}
+
+#contenedor-gris {
+    position: absolute;
+    background-color: #FAFAFA;
+    top: 100px;
+    z-index: -1;
+    padding-top: 85px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 25px;
+}
+#contenedor-boton-more {
+    margin-top: 150px;
+}
+
+#boton-best {
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50px;
+    background: #8B48BF;
+    color: white;
+    border-style: none;
+}
+/* best month-end */
+
+/* caja dos - start */
 #dos-caja-celeste {
     display: flex;
     margin-top: 40px;
@@ -173,11 +214,23 @@ body {
     margin-right: 20px;
 
 }
+#boton-2-caja-celeste {
+    color: white;
+    display: flex;
+    width: 134px;
+    height: 44px;
+    padding: 10px 20x;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #232C50;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+/* caja dos - end */
 
 
-/* caja-celeste2-end */
-
-/* footer-start */
+/* footer - start */
 footer {
     background-color: #1E1E26;
     height: 455px;
@@ -208,53 +261,11 @@ footer {
 #boton-go {
     display: flex;
     width: 63px;
-    height: 42px;
+    height: 46px;
     padding: 10px;
-}
-
-#boton-2-caja-celeste {
-    color: white;
-    display: flex;
-    width: 134px;
-    height: 44px;
-    padding: 10px 20x;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border-radius: 50px;
-    background: #232C50;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
-}
-
-#contenedor-best-month {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    text-align: center;
-    margin-left: 18px;
-    margin-right: 18px;
-}
-
-#contenedor-best-month h2 {
-    margin-top: 0;
-    font-size: 39.214px;
-}
-
-#contenedor-gris {
-    position: absolute;
-    background-color: #FAFAFA;
-    top: 100px;
-    z-index: -1;
-    padding-top: 85px;
-    padding-left: 27px;
-    padding-right: 27px;
-    padding-bottom: 25px;
-}
-
-#boton-best {
-    width: 134px;
-    height: 44px;
-    padding: 10px;
     border-radius: 50px;
     background: #8B48BF;
     color: white;
@@ -302,6 +313,3 @@ footer {
 }
 
 /* footer-end */
-#contenedor-boton-more {
-    margin-top: 150px;
-}
