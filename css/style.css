@@ -2,6 +2,7 @@ body {
     font-family: 'Be Vietnam Pro', sans-serif;
     margin: 0px;
 }
+
 /* navbar-start*/
 #barra-navegacion {
     display: flex;
@@ -12,19 +13,22 @@ body {
     margin-bottom: 64px;
     height: 60px;
     align-items: center;
-    gap:200px;
+    gap: 200px;
 }
+
 #logo-barra {
     width: 107.684px;
     height: 25px;
-    
+
 }
-#lineas-barra{
+
+#lineas-barra {
     margin-top: 0;
     margin-bottom: 0;
     width: 30px;
     height: 30px;
 }
+
 /* navbar-end */
 
 /* main-start*/
@@ -73,11 +77,11 @@ body {
     color: white;
     border-style: none;
 }
+
 /* main */
 
 /* whats different */
-#uno-caja-celeste{
-    width: 480px;
+#uno-caja-celeste {
     margin-top: 40px;
     /* padding-top: 40px; */
     /* padding-bottom: 40px; */
@@ -89,7 +93,8 @@ body {
     flex-direction: column;
     gap: 50px;
 }
-#whats-h3{
+
+#whats-h3 {
     margin-top: 40px;
     margin-bottom: 0;
     margin-left: 20px;
@@ -99,7 +104,8 @@ body {
     font-size: 36px;
     font-style: normal;
 }
-#manage-p{
+
+#manage-p {
     margin-top: 0;
     margin-bottom: 40px;
     margin-left: 20px;
@@ -111,12 +117,141 @@ body {
 }
 
 /* caja-celeste2-start */
-#dos-caja-celeste{
-    margin: 40px;
+#dos-caja-celeste {
+    display: flex;
+    margin-top: 40px;
     background-color: #3CDDF3;
     padding: 50px 40px;
     color: white;
     flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+#get-to {
+    margin: 0px;
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
+
+#boton-2-caja-celeste {
+    color: white;
+    display: flex;
+    width: 134px;
+    height: 44px;
+    padding: 10px 20x;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #232C50;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
 /* caja-celeste2-end */
+
+/* #contenedor-principal{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo-contenedor-best{
+    display: flex;
+    color: #242E53;
+    justify-content: center;
+}
+
+#contenedor-imagen{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 21px;
+}
+#contenedor-icono-lebron{
+    position: relative;
+    display: flex;
+}
+#imagen-lebron{
+    display: flex;
+    position: absolute;
+}
+#nombre-best{
+    top: 80px;
+    position: absolute;
+    text-align: center;
+    gap:21px;
+}
+
+#contenedor-gris{
+    background: #FAFAFA;
+    width: 445px;
+    height: 219px;
+    /* margin-top: 100px; */
+/* } */
+/* 
+#texto-contenedor-gris{
+    color: #B9B9C1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;  
+    text-align: center;
+    padding-top: 30px;
+}
+
+#boton-best{
+    display: flex;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #8B48BF;
+    color:white;
+} */
+
+#contenedor-best-month {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+#contenedor-best-month h2{
+    margin-top: 0;
+    font-size: 39.214px;
+}
+
+#contenedor-gris {
+    position: absolute;
+    background-color: #FAFAFA;
+    top: 100px;
+    z-index: -1;
+    padding-top: 85px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 25px;
+}
+
+#boton-best {
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50px;
+    background: #8B48BF;
+    color: white;
+    border-style: none;
+}
+#contenedor-boton-more{
+    /* position: absolute; */
+    margin-top: 150px;
+}
