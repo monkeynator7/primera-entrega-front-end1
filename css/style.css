@@ -79,11 +79,8 @@ body {
 #uno-caja-celeste{
     width: 480px;
     margin-top: 40px;
-    /* padding-top: 40px; */
-    /* padding-bottom: 40px; */
     margin-right: 0px;
     margin-left: 0px;
-    /* padding: 40px 20px; */
     display: flex;
     background-color: #3CDDF3;
     flex-direction: column;
@@ -120,3 +117,45 @@ body {
 
 }
 /* caja-celeste2-end */
+
+/* caracteristicas-pro-start */
+.contenido-texto {
+    height: 43px;
+    margin: 0px;
+    margin-top: 10px;
+    background-color: rgba(139, 72, 191, 0.30);
+    align-items: center;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.contenido-texto h4 {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contenido-texto button {
+    display: flex;
+    padding: 10px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #8B48BF;
+    border-style: none;
+    color: white;
+    margin-right: 20px;
+    height: 39px;
+    width: 73px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 20px 34px;
+}
+.column p{
+    margin-top: 21px;
+    color: #B3B2B7;
+    padding: 10px;
+}
+/* caracteristicas-pro-end */
