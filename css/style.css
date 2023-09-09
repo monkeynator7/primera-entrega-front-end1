@@ -2,6 +2,7 @@ body {
     font-family: 'Be Vietnam Pro', sans-serif;
     margin: 0px;
 }
+
 /* navbar-start*/
 #barra-navegacion {
     display: flex;
@@ -12,19 +13,22 @@ body {
     margin-bottom: 64px;
     height: 60px;
     align-items: center;
-    gap:200px;
+    gap: 200px;
 }
+
 #logo-barra {
     width: 107.684px;
     height: 25px;
-    
+
 }
-#lineas-barra{
+
+#lineas-barra {
     margin-top: 0;
     margin-bottom: 0;
     width: 30px;
     height: 30px;
 }
+
 /* navbar-end */
 
 /* main-start*/
@@ -73,10 +77,11 @@ body {
     color: white;
     border-style: none;
 }
+
 /* main */
 
 /* whats different */
-#uno-caja-celeste{
+#uno-caja-celeste {
     width: 480px;
     margin-top: 40px;
     margin-right: 0px;
@@ -86,7 +91,8 @@ body {
     flex-direction: column;
     gap: 50px;
 }
-#whats-h3{
+
+#whats-h3 {
     margin-top: 40px;
     margin-bottom: 0;
     margin-left: 20px;
@@ -96,7 +102,8 @@ body {
     font-size: 36px;
     font-style: normal;
 }
-#manage-p{
+
+#manage-p {
     margin-top: 0;
     margin-bottom: 40px;
     margin-left: 20px;
@@ -137,20 +144,23 @@ body {
     height: 39px;
     width: 73px;
 }
-.column{
+
+.column {
     display: flex;
     flex-direction: column;
     margin: 20px 0px 20px 34px;
 }
-.column p{
+
+.column p {
     margin-top: 21px;
     color: #B3B2B7;
     padding: 10px;
 }
+
 /* caracteristicas-pro-end */
 
 /* caja-celeste2-start */
-#dos-caja-celeste{
+#dos-caja-celeste {
     margin: 40px;
     background-color: #3CDDF3;
     padding: 50px 40px;
@@ -158,5 +168,80 @@ body {
     flex-direction: column;
 
 }
+
 /* caja-celeste2-end */
 
+/* footer-start */
+footer {
+    background-color: #1E1E26;
+    height: 455px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#search-bar{
+    margin-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#boton-update {
+    padding: 10px;
+    display: flex;
+    height: 44px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 50px;
+    background: #FFF;
+    width: 288px;
+    color: #A0A0A0;
+    margin-right: 9px;
+}
+
+#boton-go {
+    display: flex;
+    width: 63px;
+    height: 42px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #8B48BF;
+    color: white;
+    border-style: none;
+}
+#navegacion-footer{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 16px;
+    justify-content: space-around;
+    text-align: justify;
+}
+#navegacion-footer ul{
+    list-style: none; 
+    padding-left: 0;
+    
+}
+#navegacion-footer li{
+    padding-bottom: 12px;
+    font-weight: 100;
+}
+#footer-iconos{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    justify-content: space-around;
+
+}
+#logo-blanco{
+    margin-top: 45px;
+    justify-content: center;
+}
+#derechos-reservados{
+    color: #8C8C94;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+/* footer-end */
