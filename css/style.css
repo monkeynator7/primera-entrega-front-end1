@@ -1,0 +1,16 @@
+/* main */
+.flex{
+    display: flex;
+}
+#jugador-padel{
+    justify-content: center;
+    width: 100vw;
+}
+#follow-live{
+    flex-direction: column;
+    align-items: flex-end;
+}
+#follow-live h2{
+    margin: 4px 10px 4px;
+}
+/* main */
