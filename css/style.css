@@ -2,6 +2,7 @@ body {
     font-family: 'Be Vietnam Pro', sans-serif;
     margin: 0px;
 }
+
 /* navbar-start*/
 #barra-navegacion {
     display: flex;
@@ -12,19 +13,22 @@ body {
     margin-bottom: 64px;
     height: 60px;
     align-items: center;
-    gap:200px;
+    gap: 200px;
 }
+
 #logo-barra {
     width: 107.684px;
     height: 25px;
-    
+
 }
-#lineas-barra{
+
+#lineas-barra {
     margin-top: 0;
     margin-bottom: 0;
     width: 30px;
     height: 30px;
 }
+
 /* navbar-end */
 
 /* main-start*/
@@ -73,10 +77,11 @@ body {
     color: white;
     border-style: none;
 }
+
 /* main */
 
 /* whats different */
-#uno-caja-celeste{
+#uno-caja-celeste {
     width: 480px;
     margin-top: 40px;
     margin-right: 0px;
@@ -86,7 +91,8 @@ body {
     flex-direction: column;
     gap: 50px;
 }
-#whats-h3{
+
+#whats-h3 {
     margin-top: 40px;
     margin-bottom: 0;
     margin-left: 20px;
@@ -96,7 +102,8 @@ body {
     font-size: 36px;
     font-style: normal;
 }
-#manage-p{
+
+#manage-p {
     margin-top: 0;
     margin-bottom: 40px;
     margin-left: 20px;
@@ -178,6 +185,7 @@ body {
     padding-right: 27px;
     padding-bottom: 25px;
 }
+
 #contenedor-boton-more {
     margin-top: 150px;
 }
@@ -191,6 +199,7 @@ body {
     color: white;
     border-style: none;
 }
+
 /* best month-end */
 
 /* caja dos - start */
@@ -214,6 +223,7 @@ body {
     margin-right: 20px;
 
 }
+
 #boton-2-caja-celeste {
     color: white;
     display: flex;
@@ -227,6 +237,7 @@ body {
     background: #232C50;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
 }
+
 /* caja dos - end */
 
 
@@ -313,3 +324,21 @@ footer {
 }
 
 /* footer-end */
+
+@media (min-width: 1440px) {
+    /* navbar start */
+    /* navbar end */
+    /* navbar main-display start */
+    /* navbar main-display end */
+    /* cuadro celeste 1 start */
+    /* cuadro celeste 1 end */
+    /* caracteristicas pro start */
+    /* caracteristicas pro end */
+    /* best month start */
+    /* best month end */
+    /* cuadro celeste 2 start */
+    /* cuadro celeste 2 end */
+    /* footer start */
+    /* footer end*/
+
+}
