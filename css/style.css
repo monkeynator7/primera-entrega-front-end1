@@ -328,8 +328,21 @@ footer {
 @media (min-width: 1440px) {
     /* navbar start */
     /* navbar end */
-    /* navbar main-display start */
-    /* navbar main-display end */
+    /* main-display start */
+    #container-main {
+        display: flex;
+        width: 90vw;
+        justify-content: center;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    #jugador-padel {
+        width: 90%;
+    }
+    #follow-live {
+        width: 50%;
+    }
+    /* main-display end */
     /* cuadro celeste 1 start */
     /* cuadro celeste 1 end */
     /* caracteristicas pro start */
